@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Kad sajt dobije domenu, dodajte:
+# Sitemap: https://vasadomena.ba/sitemap.xml
