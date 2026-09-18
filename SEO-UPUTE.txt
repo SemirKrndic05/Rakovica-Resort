@@ -1,0 +1,83 @@
+RAKOVICA RESORT — SEO I OBJAVA
+
+Paket je pripremljen iz GitHub repozitorija SemirKrndic05/Rakovica-Resort,
+preuzetog 18.09.2026. Izmjene još nisu postavljene na javni sajt.
+
+POSTAVLJANJE
+1. Raspakujte ZIP na računaru.
+2. Otvorite GitHub repozitorij Rakovica-Resort > Code > Add file > Upload files.
+3. U korijen repozitorija (gdje je index.html) prenesite ove fajlove:
+   index.html, style.css, app.js, details.js,
+   odmor-vikendica-bazen-sarajevo.html,
+   svadbeni-salon-sarajevo.html,
+   rodjendani-proslave-sarajevo.html,
+   robots.txt, sitemap.xml i .nojekyll (ako je vidljiv).
+   Postojeći assets folder i CNAME ostaju isti; njihove kopije su u ZIP-u
+   radi potpunog paketa. Nemojte uploadovati sam ZIP niti vanjski folder.
+4. Kliknite Commit changes. Sačekajte da GitHub Actions završi objavu.
+5. U Settings > Pages uključite Enforce HTTPS čim je dostupno.
+6. Otvorite sve četiri stranice na telefonu i računaru, provjerite slike,
+   galeriju i kontakt dugmad. Provjerite https://rakovicaresort.ba/sitemap.xml.
+
+ŠTA JE PROMIJENJENO
+- Jedinstven naslov i opis svake stranice, jasni H1/H2 naslovi.
+- HTTPS canonical, Open Graph oznake i Twitter kartica.
+- Strukturirani podaci LodgingBusiness, WebSite i WebPage;
+  BreadcrumbList na stranicama ponude.
+- Tri sadržajno različite stranice: odmor/apartmani/vikendica/bazen,
+  svadbeni salon, rođendani/proslave.
+- Vidljiva česta pitanja, povezivanje stranica ponude i kontakt informacije.
+- Galerija je u izvornom HTML-u i radi kao linkovi na fotografije bez JS-a;
+  JS dodaje postojeći lightbox i prikaz svih fotografija.
+- Stvarne dimenzije slika, lazy loading galerije i prioritet naslovne slike.
+- robots.txt i sitemap sa četiri kanonske adrese.
+- Sadržaj ne navodi izmišljene cijene, kapacitet, recenzije ili radno vrijeme.
+
+TEME PRETRAGE
+Početna: Rakovica Resort, resort Sarajevo, odmor Sarajevo.
+Smještaj: vikendica s bazenom Sarajevo, apartmani Rakovica Sarajevo,
+vikend odmor Sarajevo, ljetni odmor Sarajevo, dnevni boravak uz bazen.
+Svadbe: svadbeni salon Sarajevo, svadbe Rakovica, prostor za svadbe Sarajevo.
+Proslave: rođendani Sarajevo, prostor za proslave Sarajevo, proslava punoljetstva.
+Bazen je sezonski i dio resorta; ne tvrdimo da je privatan uz svaku jedinicu.
+
+GOOGLE SEARCH CONSOLE — NAKON OBJAVE
+1. Otvorite https://search.google.com/search-console/
+2. Dodajte Domain property: rakovicaresort.ba.
+3. Kopirajte TXT vrijednost koju Google dodijeli vašem nalogu.
+4. U Cloudflare > DNS > Records dodajte TXT: Name @, Content ta vrijednost,
+   TTL Auto. Zadržite sve postojeće A/CNAME zapise.
+5. Vratite se u Search Console i kliknite Verify.
+6. U Sitemaps prijavite https://rakovicaresort.ba/sitemap.xml.
+7. U URL inspection provjerite početnu i tri nove stranice, pokrenite
+   Test live URL, a zatim Request indexing ako je dostupno.
+8. Pratite Pages i Performance: indeksiranje, upite, prikaze i klikove.
+Nemojte ponavljati zahtjeve svaki dan. Indeksiranje i pozicija nisu garantovani.
+
+LOKALNA VIDLJIVOST
+Vlasnik treba dodati https://rakovicaresort.ba na postojeći Google Business
+Profile resorta (ne praviti duplikat), te na Instagram i druge poslovne profile.
+Koristite usklađeno ime, adresu i telefon. Na poslovnom profilu objavljujte
+stvarne fotografije i tražite iskrene recenzije gostiju. Potvrdite tačnu
+lokaciju na karti i poslovne kategorije prema stvarnoj ponudi.
+
+PRIORITETI ZA DALJE
+Za korisniju ponudu prikupiti: potvrđen kapacitet salona i smještaja,
+period rada bazena, uslove dnevnog boravka, cijene/pakete i pravila rezervacije.
+Dodati ih tek nakon potvrde klijenta. Ove informacije pomažu ljudima da
+odluče i daju stranicama konkretniji sadržaj.
+
+PRVO MJESTO NIJE GARANTOVANO
+Google određuje redoslijed rezultata. Široki pojmovi poput 'vikendica' imaju
+mnogo konkurencije; lokalni i precizni upiti su korisniji cilj. Promjene se
+procjenjuju tokom narednih sedmica i mjeseci, a ne odmah nakon uploada.
+
+SLUŽBENE UPUTE
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+https://developers.google.com/search/docs/appearance/structured-data/local-business
+https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl
+
+PROVJERE PAKETA
+Prošli: interni linkovi i asseti, XML sitemap, JSON-LD sintaksa, jedinstven
+H1/title/canonical, JavaScript sintaksa. Automatska vizuelna provjera nije
+izvršena jer preglednik u radnom okruženju nije bio dostupan.
